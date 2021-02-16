@@ -31,6 +31,12 @@ Purchase:
 22. Error Page / blog_error_data
 23. Responsive Css
 -------------------------------------------------------------------*/
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
+.darkmode--activated .blog_footer, .darkmode--activated .blog_copyright_wrapper {
+
+}
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Montserrat:100,200,300,400,500,600,700,800,900');
 body {
 	margin: 0;
@@ -3614,7 +3620,7 @@ body.right_toggle_open .blog_right_toggle_sidebar .blog_togglediv {
 .blog_breadcrumb_wrapper {
     display: flex;
     width: 100%;
-    background-image: url(https://via.placeholder.com/1920x700);
+    background-color: #737373;
     padding: 30px 0;
     position: relative;
     background-size: cover;

@@ -1107,27 +1107,3 @@ Assigned to: Theme Forest
     },
   }
 	});
-
-/********************Home3 Responsive hamburger js************************/
-const hamburger = document.querySelector(".hamburger");
-         const navLinks = document.querySelector(".nav-links");
-         const links = document.querySelectorAll(".nav-links li");
-         
-         hamburger.addEventListener('click', ()=>{
-           //Animate Links
-            navLinks.classList.toggle("open");
-            links.forEach(link => {
-                link.classList.toggle("fade");
-            });
-         
-            //Hamburger Animation
-            hamburger.classList.toggle("toggle");
-         });
-/*********************** AOS JS *********************/
-AOS.init({
-	easing: 'ease-out-back',
-	duration: 800,
-	delay: 300,
-	once: true,
-	disable: 'mobile'
-  });
