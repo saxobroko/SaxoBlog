@@ -1506,11 +1506,11 @@ ul.blog_meta_tags li span.blog_bg_pink:after {
 .widget.widget_social ul li .widget_social_link i.fa-instagram {
     background: #e4405f;
 }
-.widget.widget_social ul li .widget_social_link i.fa-pinterest-p {
-    background: #bd081c;
+.widget.widget_social ul li .widget_social_link i.fa-spotify {
+    background: #1DB954;
 }	
-.widget.widget_social ul li .widget_social_link i.fa-rss {
-    background: #ffa748;
+.widget.widget_social ul li .widget_social_link i.fa-apple {
+    background: ##e96889;
 }	
 .widget.widget_social ul li .widget_social_link h2 {
     font-size: 17px;
